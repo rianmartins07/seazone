@@ -24,7 +24,6 @@ class ImovelAPITestCase(TestCase):
         url = reverse('imovel-listagem')
         
         response = self.client.post(url, data=self.imovel_obj, content_type='application/json')
-        print(response.content)
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
 
     def test_imovel_detalhe(self):
