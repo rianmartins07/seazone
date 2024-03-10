@@ -36,7 +36,9 @@ Para rodar o servidor e garantir seu correto funcionamento:
 
 
 ## Acesse o domínio da aplicação que será exibido no terminal e visite o seguinte URL:
-    http://seu_dominio.com/api
+    http://seu_dominio.com/api/
+    Ou
+    http://seu_dominio.com/redoc/
 
 
 Neste endereço, você terá acesso a todas as interfaces de consumo, criação, alteração e deleção de dados de acordo com o estabelecido no arquivo.
